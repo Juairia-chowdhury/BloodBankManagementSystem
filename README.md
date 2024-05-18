@@ -101,7 +101,7 @@ hosp_name: Varchar(100), Not Null
 City_ID: Integer, Foreign Key
 M_id: Integer, Foreign Key
 
-![hp1](https://github.com/Juairia-chowdhury/BloodBankManagementSystem/assets/142811842/dc880de8-b115-4a55-b6cb-0739a63a6fd6)
+![hp111](https://github.com/Juairia-chowdhury/BloodBankManagementSystem/assets/142811842/1e6dccab-d326-4b2a-aee5-4c7fa5ab150f)
 
 ## 8. hospital_info_2 ::::-->
 Stores information about hospital blood needs.
