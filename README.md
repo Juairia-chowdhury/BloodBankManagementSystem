@@ -11,12 +11,15 @@ Each table is created with relevant fields and constraints, followed by insertin
 
 Below is the Entity-Relationship (ER) diagram for BloodBankManagement:
 
+
 ![ER_diagram](https://github.com/Juairia-chowdhury/BloodBankManagementSystem/assets/142811842/bd6abcbf-0bd7-46e5-adb2-3be7fd926e3b)
 
 ## Schema Diagram :::::-->
+
 ![scema](https://github.com/Juairia-chowdhury/BloodBankManagementSystem/assets/142811842/dd8f8607-dff2-424a-8296-4f66849d9ba9)
 
 ## Relational schema after normalization :::::-->
+
 ![normalizetion](https://github.com/Juairia-chowdhury/BloodBankManagementSystem/assets/142811842/66994558-646f-42c5-b425-bebea72eff28)
 
 ## Tables and Structure:
@@ -29,6 +32,7 @@ Columns:
 M_id: Integer, Primary Key
 mName: Varchar(100), Not Null
 m_phNo: Bigint
+
 ![bb](https://github.com/Juairia-chowdhury/BloodBankManagementSystem/assets/142811842/12fffa65-2c03-40fa-b66d-8f0f92fd591b)
 
 ## 2. recording_staff ::::-->
@@ -39,6 +43,7 @@ Columns:
 reco_ID: Integer, Primary Key
 reco_Name: Varchar(100), Not Null
 reco_phNo: Bigint, Default Null
+
 ![recod](https://github.com/Juairia-chowdhury/BloodBankManagementSystem/assets/142811842/87d9ecc5-6373-4b77-8b78-55e134d4dca1)
 
 ## 3. city :::::-->
@@ -47,6 +52,7 @@ Stores information about cities.
 Columns:
 City_ID: Integer, Primary Key
 City_ID: Integer, Primary Key
+
 ![city](https://github.com/Juairia-chowdhury/BloodBankManagementSystem/assets/142811842/f264166e-0d7a-4fa2-b1d3-031e30b90f29)
 
 ## 4.blood_donor ::::-->
@@ -61,6 +67,7 @@ bd_Bgroup: Varchar(10)
 bd_reg_date: Date
 reco_ID: Integer, Foreign Key
 City_ID: Integer, Foreign Key
+
 ![blod](https://github.com/Juairia-chowdhury/BloodBankManagementSystem/assets/142811842/b8e2c093-68ca-4023-a656-aec5be05170a)
 
 ## 5. diseasefinder ::::-->
@@ -70,6 +77,7 @@ Columns:
 dfind_ID: Integer, Primary Key
 dfind_name: Varchar(100), Not Null
 dfind_PhNo: Bigint, Default Null
+
 ![des](https://github.com/Juairia-chowdhury/BloodBankManagementSystem/assets/142811842/b814a56f-cac2-4b1a-9a1d-ee6289221d3f)
 
 ## 6. bloodspecimen ::::-->
@@ -80,7 +88,8 @@ specimen_number: Integer, Primary Key
 b_group: Varchar(10), Primary Key
 status: Integer
 dfind_ID: Integer, Foreign Key
-M_id: Integer, Foreign Key
+M_id: Integer, Foreign Key.
+
 ![spe](https://github.com/Juairia-chowdhury/BloodBankManagementSystem/assets/142811842/fadfb923-7c2e-4beb-88ac-f882b3c1121a)
 
 ## 7. hospital_info_1 ::::-->
@@ -91,6 +100,7 @@ hosp_ID: Integer, Primary Key
 hosp_name: Varchar(100), Not Null
 City_ID: Integer, Foreign Key
 M_id: Integer, Foreign Key
+
 ![hp1](https://github.com/Juairia-chowdhury/BloodBankManagementSystem/assets/142811842/dc880de8-b115-4a55-b6cb-0739a63a6fd6)
 
 ## 8. hospital_info_2 ::::-->
@@ -101,6 +111,7 @@ Columns:
  hosp_name: Varchar(100), Not Null
  hosp_needed_Bgrp: Varchar(10), Primary Key
  hosp_needed_qnty: Integer
+ 
  ![hp2](https://github.com/Juairia-chowdhury/BloodBankManagementSystem/assets/142811842/0455ff82-9863-4b4b-940a-d89d102217ef)
  
 ## 9. recipient ::::-->
