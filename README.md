@@ -22,12 +22,14 @@ Below is the Entity-Relationship (ER) diagram for BloodBankManagement:
 
 ![normalizetion](https://github.com/Juairia-chowdhury/BloodBankManagementSystem/assets/142811842/66994558-646f-42c5-b425-bebea72eff28)
 
-## Tables and Structure:
+## Tables and Structure::::::-->
 
 ## 1. BB_MANAGER :::::-->
+
 Stores information about blood bank managers.
 
-Columns:
+Columns::::::-->
+
 
 M_id: Integer, Primary Key
 mName: Varchar(100), Not Null
@@ -39,7 +41,8 @@ m_phNo: Bigint
 
 Stores information about recording staff.
 
-Columns:
+Columns::::::-->
+
 reco_ID: Integer, Primary Key
 reco_Name: Varchar(100), Not Null
 reco_phNo: Bigint, Default Null
@@ -49,16 +52,19 @@ reco_phNo: Bigint, Default Null
 ## 3. city :::::-->
 Stores information about cities.
 
-Columns:
+Columns::::::-->
+
 City_ID: Integer, Primary Key
 City_ID: Integer, Primary Key
 
 ![city](https://github.com/Juairia-chowdhury/BloodBankManagementSystem/assets/142811842/f264166e-0d7a-4fa2-b1d3-031e30b90f29)
 
 ## 4.blood_donor ::::-->
+
 Stores information about blood donors.
 
-Columns:
+Columns::::::-->
+
 bd_ID: Integer, Primary Key
 bd_name: Varchar(100), Not Null
 bd_age: Varchar(100)
@@ -73,7 +79,8 @@ City_ID: Integer, Foreign Key
 ## 5. diseasefinder ::::-->
 Stores information about disease finders.
 
-Columns:
+Columns::::::-->
+
 dfind_ID: Integer, Primary Key
 dfind_name: Varchar(100), Not Null
 dfind_PhNo: Bigint, Default Null
@@ -83,7 +90,8 @@ dfind_PhNo: Bigint, Default Null
 ## 6. bloodspecimen ::::-->
 Stores information about blood specimens.
 
-Columns:
+Columns::::::-->
+
 specimen_number: Integer, Primary Key
 b_group: Varchar(10), Primary Key
 status: Integer
@@ -95,7 +103,8 @@ M_id: Integer, Foreign Key.
 ## 7. hospital_info_1 ::::-->
 Stores information about hospitals.
 
-Columns:
+Columns::::::-->
+
 hosp_ID: Integer, Primary Key
 hosp_name: Varchar(100), Not Null
 City_ID: Integer, Foreign Key
@@ -104,9 +113,11 @@ M_id: Integer, Foreign Key
 ![hp111](https://github.com/Juairia-chowdhury/BloodBankManagementSystem/assets/142811842/1e6dccab-d326-4b2a-aee5-4c7fa5ab150f)
 
 ## 8. hospital_info_2 ::::-->
+
 Stores information about hospital blood needs.
 
-Columns:
+Columns::::::-->
+
   hosp_ID: Integer, Primary Key
  hosp_name: Varchar(100), Not Null
  hosp_needed_Bgrp: Varchar(10), Primary Key
@@ -118,6 +129,7 @@ Columns:
  Stores information about blood recipients.
 
  Columns:::::-->
+ 
  reci_ID: Integer, Primary Key
  reci_name: Varchar(100), Not Null
  reci_age: Varchar(10)
@@ -131,7 +143,8 @@ Columns:
   
  ![recii](https://github.com/Juairia-chowdhury/BloodBankManagementSystem/assets/142811842/11532c48-22de-4107-95ce-6c8d8f7d1b67)
  
-##Sample Data ::::-->
+## Sample Data ::::-->
+
  The script includes sample data for each table to demonstrate the relationships and provide a working example of the schema.
  
 
@@ -146,7 +159,9 @@ Columns:
 ## Contributors ::::-->
 
 Juairia Chowdhury (222-115-233)
+
 Nabiha Tahsin (222-115-236)
+
 Mamnun Mumin Eram (222-115-254)
 
 
