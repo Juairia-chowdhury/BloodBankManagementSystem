@@ -1,5 +1,6 @@
 CREATE DATABASE  BLOODBANK;
 USE BLOODBANK;
+
 CREATE TABLE BB_MANAGER (
   M_id int NOT NULL   PRIMARY KEY ,
   mName varchar(100) NOT NULL,
@@ -79,8 +80,8 @@ VALUES (150011, 'Steven', '25', 'M', 'O+', '2015-07-19', 101412, 1100),
        (150018, 'Logan', '31', 'F', 'O+', '2016-01-04', 101312, 1200), 
        (150019, 'Peter', '24', 'F', 'AB+', '2016-09-10', 101312, 1500), 
        (150020, 'Odinson', '29', 'M', 'O-', '2016-12-17', 101212, 1200);
-SELECT*
-FROM blood_dono;
+  SELECT*
+  FROM blood_donor;
 CREATE TABLE diseasefinder (
   dfind_ID int NOT NULL,
   dfind_name varchar(100) NOT NULL,
@@ -106,7 +107,7 @@ CREATE TABLE bloodspecimen (
   status int,
   dfind_ID int NOT NULL,
   M_id int NOT NULL,
-  PRIMARY KEY (specimen_numbe, b_group),
+  PRIMARY KEY (specimen_number, b_group),
   FOREIGN KEY (M_id) REFERENCES BB_MANAGER  (M_id),
   FOREIGN KEY (dfind_ID) REFERENCES diseasefinder (dfind_ID)
 );
