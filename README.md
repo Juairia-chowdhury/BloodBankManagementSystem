@@ -16,7 +16,7 @@ Below is the Entity-Relationship (ER) diagram for BloodBankManagement:
 ## Schema Diagram :::::-->
 ![scema](https://github.com/Juairia-chowdhury/BloodBankManagementSystem/assets/142811842/dd8f8607-dff2-424a-8296-4f66849d9ba9)
 
-##Relational schema after normalization:
+## Relational schema after normalization :::::-->
 ![normalizetion](https://github.com/Juairia-chowdhury/BloodBankManagementSystem/assets/142811842/66994558-646f-42c5-b425-bebea72eff28)
 
 ## Tables and Structure:
