@@ -156,14 +156,6 @@ Columns::::::-->
  3.Run the Script: Execute (Copy and Paste) the provided SQL script to create the tables and insert the sample data.
  
 
-## Contributors ::::-->
-
-Juairia Chowdhury (222-115-233)
-
-Nabiha Tahsin (222-115-236)
-
-Mamnun Mumin Eram (222-115-254)
-
 
 
 
